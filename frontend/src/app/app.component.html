@@ -1,0 +1,20 @@
+<div class="container" *ngIf="sign==false">
+  <div class="form">
+    <div *ngIf="showSignin==true" >
+      <app-sign-in (success)="hide($event)"></app-sign-in>
+    </div>
+    <div *ngIf="showSignup==true">
+      <app-sign-up></app-sign-up>
+    </div>
+      <a class="a" (click)="show()" *ngIf="showSignin==true">Create an account</a>
+  </div>
+  <div class="logo"></div>
+</div>
+<div>
+  <app-upload-song *ngIf="sign==true"></app-upload-song>
+</div>
+<!-- <div>
+  <app-home ></app-home>
+</div> -->
+
+<router-outlet></router-outlet>

@@ -1,0 +1,21 @@
+<h1 class="h">Upload a song</h1>
+<div class="input-group mb-3" id="choose">
+    <input type="file" class="form-control" accept=".wav" id="inputGroupFile01"(change)="uploadSong($event)">
+</div>>
+<h3 class="h">Fill the following details:</h3>
+<div id="con">
+    <div>
+        <label for="song_name">Song name*</label><br>
+        <input type="text" class="inputs" name="song_name" id="song_name" required>
+    </div>
+    <div>
+        <label for="song_creator">Song creator*</label><br>
+        <input type="text" class="inputs" name="song_creator" id="song_creator" required>
+    </div>
+
+    <div>
+        <input type="button" value="send" (click)="sendSong($event)" id="submitinput">
+    </div>
+    <div *ngIf="proccess==true"><app-loader></app-loader>
+    </div>
+</div>

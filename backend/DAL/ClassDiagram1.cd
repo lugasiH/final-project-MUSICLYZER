@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.connectToDB">
+    <Position X="1.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAEAAAAAAAAAAAAAAAEMAIAEAAAAAAAAAAEAACI=</HashCode>
+      <FileName>connectToDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.models.Song">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAAIAAAABAAQAAACAAAAAEAAACAAAAAA=</HashCode>
+      <FileName>models\Song.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.models.User">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAFAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

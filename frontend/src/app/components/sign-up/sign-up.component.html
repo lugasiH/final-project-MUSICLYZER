@@ -1,0 +1,23 @@
+<div id="form">
+    <h1>Sign up </h1>
+    <form [formGroup]="signUpForm" (submit)="onSumit()">
+        <p>
+            <label for="name">User name</label>
+            <input type="text" class="inputs" name="name" formControlName="name" required>
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" class="inputs" name="password" formControlName="password" required minlength="5">
+        </p>
+        <p>
+            <label for="password">Confirm your password</label>
+            <input type="password" class="inputs" name="password" formControlName="confirmPassword" required>
+        </p>
+        <p>
+            <label for="email">E-mail</label>
+            <input type="email" class="inputs" formControlName="email" name="email">
+        </p>
+
+        <input type="submit" value="sign up" id="submitinput" class="inputs">
+    </form>
+</div>

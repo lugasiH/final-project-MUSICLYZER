@@ -1,0 +1,18 @@
+<div id="form" >
+    <h1>Sign in </h1>
+    <form [formGroup]="signInForm" (submit)="loginUser()">
+        <div class="alert" *ngIf="showAlert==true">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <strong>Oops!</strong>it seems that you don't have an account
+          </div>
+        <p>
+            <label for="name">User name</label>
+            <input type="text" class="inputs" name="name" formControlName="name" required >
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" class="inputs" name="password" formControlName="password" required minlength="5">
+        </p>
+        <input type="submit" value="sign in" id="submitinput" class="inputs" >
+   </form>
+</div>

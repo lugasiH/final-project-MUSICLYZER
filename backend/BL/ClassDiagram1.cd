@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BL.Algorithm.NotesFrequency">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMA3AAD7AAAAAKAHAAAAgP0+AAAAvv8fAAAAgP8PAAA=</HashCode>
+      <FileName>Algorithm\NotesFrequency.cs</FileName>
+      <NewMemberFileName>Algorithm\MusicNotes.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.connectionBL">
+    <Position X="5.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAEMAIAEAACAAAAAAAEAAAI=</HashCode>
+      <FileName>connectionBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.Algorithm.ConnectToPython">
+    <Position X="10.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAA=</HashCode>
+      <FileName>Algorithm\ConnectToPython.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
